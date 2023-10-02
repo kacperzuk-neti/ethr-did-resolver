@@ -5,12 +5,10 @@
   "type": "commonjs",
   "source": "./src/index.ts",
   "main": "./lib/index.js",
-  "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "exports": {
     ".": {
       "types": "./lib/index.d.ts",
-      "import": "./esm/index.js",
       "require": "./lib/index.js"
     }
   },
